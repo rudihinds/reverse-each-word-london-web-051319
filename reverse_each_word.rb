@@ -4,11 +4,12 @@ end
 
 
 def reverse_each_word(array)
-array.collect do |w|
+newArr = array.collect do |w|
   w.reverse
 end
-
+  newArr.join(" ")
 end
+
 reverse_each_word(array).join
 
 
