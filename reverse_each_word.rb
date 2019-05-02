@@ -3,7 +3,8 @@ string.split(" ")
 end
 
 
-reverse_each_word("Hello there, and how are you?").collect do |w|reverse
+def reverse_each_word(array)
+array.collect do |w|reverse
   w.reverse
 end
 
