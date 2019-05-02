@@ -3,8 +3,10 @@ newarr = string.split(" ")
 end
 
 
-reverse_each_word("Hello there, and how are you?").collect do |w|
-  w.reverse.join
+reversed = reverse_each_word("Hello there, and how are you?").collect do |w|
+  w.reverse
+  
+reversed.join
 end
 
 
