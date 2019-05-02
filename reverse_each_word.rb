@@ -1,6 +1,6 @@
-def reverse_setup(string)
-string.split(" ")
-end
+# def reverse_setup(string)
+# string.split(" ")
+# end
 
 
 reverse_each_word("Hello there, and how are you?").collect do |w|
