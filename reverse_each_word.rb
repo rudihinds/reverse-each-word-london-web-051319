@@ -4,8 +4,7 @@ end
 
 
 def reverse_each_word(string)
-newArr = string.split(" ")
-newArr.collect do |w|
+newArr = string.split(" ").collect do |w|
   w.reverse
 end
   newArr.join(" ")
