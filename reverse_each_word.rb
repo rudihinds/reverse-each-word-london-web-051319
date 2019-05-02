@@ -3,8 +3,9 @@ string.split(" ")
 end
 
 
-def reverse_each_word(array)
-newArr = array.collect do |w|
+def reverse_each_word(string)
+newArr = string.split(" ")
+newArr.collect do |w|
   w.reverse
 end
   newArr.join(" ")
