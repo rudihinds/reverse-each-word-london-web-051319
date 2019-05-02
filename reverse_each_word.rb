@@ -1,5 +1,5 @@
 def reverse_setup(string)
-newarr = string.split(" ")
+string.split(" ")
 end
 
 
