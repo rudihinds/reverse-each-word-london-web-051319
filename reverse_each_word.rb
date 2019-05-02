@@ -3,7 +3,7 @@ newarr = string.split(" ")
 end
 
 
-reverse_each_word("Hello there, and how are you?").each do |w|
+reverse_each_word("Hello there, and how are you?").collect do |w|
   w.reverse
 end
 
